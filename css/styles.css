@@ -515,6 +515,14 @@ section,
         align-items: stretch;
     }
 
+    .project.project-copy {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .project-copy .project-body {
+        max-width: 68ch;
+    }
+
     .project-body {
         padding: 2.25rem 2.4rem;
     }
