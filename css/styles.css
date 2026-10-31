@@ -281,9 +281,18 @@ a:hover {
     margin: 0;
 }
 
+.hero-photo picture {
+    display: block;
+}
+
 .hero-photo img {
     display: block;
     width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    /* Faces sit just above the middle; keeps all five in frame if the box is shorter than the photo. */
+    object-position: center 40%;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
 }

@@ -12,7 +12,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link rel="canonical" href="https://chase.bio/" />
         <link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="assets/img/bg-showcase-1.jpg" as="image" />
+        <link rel="preload" href="assets/img/family-kids-sunglasses.webp" as="image" type="image/webp" />
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body id="top">
@@ -45,14 +45,17 @@
                         </div>
                     </div>
                     <figure class="hero-photo">
-                        <img
-                            src="assets/img/bg-showcase-1.jpg"
-                            alt="Chase McElroy with his family, standing together outdoors."
-                            width="1156"
-                            height="1126"
-                            fetchpriority="high"
-                            decoding="async"
-                        />
+                        <picture>
+                            <source srcset="assets/img/family-kids-sunglasses.webp" type="image/webp" />
+                            <img
+                                src="assets/img/family-kids-sunglasses.jpg"
+                                alt="Chase with his wife and three kids at a park"
+                                width="1152"
+                                height="864"
+                                fetchpriority="high"
+                                decoding="async"
+                            />
+                        </picture>
                     </figure>
                 </div>
             </section>
