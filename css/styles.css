@@ -389,6 +389,11 @@ a:hover {
     order: -1;
 }
 
+.project-media picture {
+    display: block;
+    width: 100%;
+}
+
 .project-media img {
     display: block;
     width: 100%;
