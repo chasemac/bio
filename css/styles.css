@@ -389,6 +389,11 @@ a:hover {
     order: -1;
 }
 
+.project-media picture {
+    display: block;
+    width: 100%;
+}
+
 .project-media img {
     display: block;
     width: 100%;
@@ -434,14 +439,13 @@ a:hover {
 .social a {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    min-height: 44px;
-    padding: 0.35rem 0.95rem;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
     border: 1px solid var(--line);
     border-radius: 999px;
     background: var(--bg-elevated);
     color: var(--ink);
-    font-weight: 600;
     text-decoration: none;
 }
 
